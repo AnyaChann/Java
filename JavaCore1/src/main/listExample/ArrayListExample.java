@@ -1,13 +1,16 @@
-package main;
-import java.util.LinkedList;
+package main.listExample;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class LinkedListExample {
+public class ArrayListExample {
     private List<String> students;
 
-    public LinkedListExample() {
-        students = new LinkedList<>();
+    public ArrayListExample() {
+        students = new ArrayList<>();
+        students.add("Alice");
+        students.add("Bob");
+        students.add("Charlie");
     }
 
     // Create
@@ -42,7 +45,7 @@ public class LinkedListExample {
     }
 
     public static void main(String[] args) {
-        LinkedListExample example = new LinkedListExample();
+        ArrayListExample example = new ArrayListExample();
         Scanner scanner = new Scanner(System.in);
         int choice;
 
