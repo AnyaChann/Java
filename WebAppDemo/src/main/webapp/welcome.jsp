@@ -5,5 +5,8 @@
 </head>
 <body>
     <h1>Welcome, ${username}</h1>
+    <%-- <form action="logout.jsp" method="post">
+        <input type="submit" value="Logout">
+    </form> --%>
 </body>
 </html>
